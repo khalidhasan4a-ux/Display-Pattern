@@ -25,7 +25,7 @@ public class RectangleArea
             System.out.println("Width : " + width);
             System.out.println("Height : " + height);
 	    System.out.printf("The area of the rectangle is : %.2f\n", area);
-	    System.out.printf("Perimeter (2 * (Width + Height)): %.2f\n", perimeter);
+	    System.out.printf("The Perimeter of the rectangle is : %.2f\n", perimeter);
         }
         
 }
