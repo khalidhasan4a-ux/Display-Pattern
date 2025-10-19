@@ -19,8 +19,13 @@ public class RectangleArea
 	else 
 	{
             double area = width * height;
-            
+            double perimeter = 2 * (width + height);
+
+	    System.out.println("Rectangle Calculation Results");
+            System.out.println("Width : " + width);
+            System.out.println("Height : " + height);
 	    System.out.printf("The area of the rectangle is : %.2f\n", area);
+	    System.out.printf("Perimeter (2 * (Width + Height)): %.2f\n", perimeter);
         }
         
 }
